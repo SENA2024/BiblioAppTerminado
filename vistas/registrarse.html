@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <title>Registrarse</title>
+</head>
+<body>
+    <header>
+        <h1><a href="../index.html">Biblioteca App</a></h1>
+        <nav>
+            <ul>
+                <li><a href="registrarse.html">Registrarse</a></li>
+                <li><a href="inicio-sesion.html">Iniciar Sesión</a></li>
+                <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h3>Registrarse</h3>
+        <form action="" method="post" id="registar-usuario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" required>
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="apellido" required>
+            <label for="correo">Correo:</label>
+            <input type="email" name="correo" id="correo" required>
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" name="contrasena" id="contrasena" required>
+            <label for="confirmar-contrasena">Confirmar Contraseña:</label>
+            <input type="password" name="confirmar-contrasena" id="confirmar-contrasena" required>
+            <button type="submit">Registrarse</button>
+        </form>
+    </main>
+    <footer>
+        <p>Desarrollado con HTML, CSS, Javascript y PHP</p>
+        <p>Todos los derechos reservados</p>
+    </footer>
+    <script src="../js/registro-usuario.js"></script>
+</body>
+</html>
